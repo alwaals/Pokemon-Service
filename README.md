@@ -1,6 +1,6 @@
 # Pokemon-Service
 
-Hello and thanks for your interest in joining `Weave`! We are excited to see what you can do.
+We are excited to see what you can do.
 The goal of this challenge is to assess your skills and approach to solving a problem. We want to see how you write code and how you solve problems.
 
 If you're familiar with Golang, we'd love to see you complete this assignment in Go. That being said, we're much more interested in grading your technical ability than
