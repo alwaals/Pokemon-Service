@@ -1,0 +1,901 @@
+Info:2024/01/10 18:46:36 main.go:67: Starting the server on :8080
+Info:2024/01/10 18:47:33 main.go:77: Shutting down the server...
+2024/01/10 18:47:33 http: Server closed
+Info:2024/01/10 18:49:24 main.go:66: Starting the server on :8080
+Info:2024/01/10 18:49:51 requestLogger.go:16: Received request with: /pokemon-service/PK10001 and Method:GET
+Info:2024/01/10 18:49:51 requestLogger.go:23: Request: 
+Info:2024/01/10 18:49:51 handler.go:54: {"ID":"PK10001","Name":"Picachoo1","Type":"TT","Height":"20.9","Weight":"30.9","Abilities":"Eat\u0026Sleep"}
+Info:2024/01/10 18:49:51 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"","Name":"","Type":"","Height":"","Weight":"","Abilities":"","RequestID":"2c643fab-f288-4af6-93d7-49f3671c8393","RequestTS":"2024-01-10T18:49:51-06:00","RespMessage":"Hello","RespCode":200,"Latency":"243.625µs"}
+
+Info:2024/01/10 18:50:34 main.go:76: Shutting down the server...
+2024/01/10 18:50:34 http: Server closed
+Info:2024/01/10 18:50:36 main.go:66: Starting the server on :8080
+Info:2024/01/10 18:50:39 requestLogger.go:16: Received request with: /pokemon-service/PK10001 and Method:GET
+Info:2024/01/10 18:50:39 requestLogger.go:23: Request: 
+Info:2024/01/10 18:50:39 handler.go:54: {"ID":"PK10001","Name":"Picachoo1","Type":"TT","Height":"20.9","Weight":"30.9","Abilities":"Eat\u0026Sleep"}
+Info:2024/01/10 18:50:39 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"","Name":"","Type":"","Height":"","Weight":"","Abilities":"","RequestID":"b9053555-8149-4019-8295-6bcdc6b5a743","RequestTS":"2024-01-10T18:50:39-06:00","RespMessage":"Hello","RespCode":200,"Latency":"101.917µs"}
+
+Info:2024/01/10 18:52:12 main.go:76: Shutting down the server...
+2024/01/10 18:52:12 http: Server closed
+Info:2024/01/10 18:52:12 main.go:85: Server gracefully stopped
+Info:2024/01/10 18:52:13 main.go:66: Starting the server on :8080
+Info:2024/01/10 18:52:16 requestLogger.go:16: Received request with: /pokemon-service/PK10001 and Method:GET
+Info:2024/01/10 18:52:16 requestLogger.go:23: Request: 
+Info:2024/01/10 18:52:16 handler.go:54: {"ID":"PK10001","Name":"Picachoo1","Type":"TT","Height":"20.9","Weight":"30.9","Abilities":"Eat\u0026Sleep"}
+Info:2024/01/10 18:52:16 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"","Name":"","Type":"","Height":"","Weight":"","Abilities":"","RequestID":"afed811e-c9ff-400a-936a-465c6675bfdf","RequestTS":"2024-01-10T18:52:16-06:00","RespMessage":"Hello","RespCode":200,"Latency":"94.625µs"}
+
+Info:2024/01/10 18:52:19 main.go:76: Shutting down the server...
+2024/01/10 18:52:19 http: Server closed
+Info:2024/01/10 18:58:20 main.go:66: Starting the server on :8080
+Info:2024/01/10 18:58:23 requestLogger.go:16: Received request with: /pokemon-service/PK10001 and Method:GET
+Info:2024/01/10 18:58:23 requestLogger.go:23: Request: 
+Info:2024/01/10 18:58:23 handler.go:55: {"ID":"PK10001","Name":"Picachoo1","Type":"TT","Height":"20.9","Weight":"30.9","Abilities":"Eat\u0026Sleep"}
+Info:2024/01/10 18:58:23 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK10001","Name":"Picachoo1","Type":"TT","Height":"20.9","Weight":"30.9","Abilities":"Eat\u0026Sleep","RequestID":"8f96d4cb-f186-403f-b34e-5d9b306661e7","RequestTS":"2024-01-10T18:58:23-06:00","RespMessage":"Hello","RespCode":200,"Latency":"306.334µs"}
+
+Info:2024/01/10 18:58:38 requestLogger.go:16: Received request with: /pokemon-service/PK10002 and Method:GET
+Info:2024/01/10 18:58:38 requestLogger.go:23: Request: 
+Info:2024/01/10 18:58:38 handler.go:55: {"ID":"PK10002","Name":"Picachoo2","Type":"PP","Height":"10.9","Weight":"31.1","Abilities":"Eat\u0026Sleep"}
+Info:2024/01/10 18:58:38 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK10002","Name":"Picachoo2","Type":"PP","Height":"10.9","Weight":"31.1","Abilities":"Eat\u0026Sleep","RequestID":"b30cfc7a-bef1-4128-a906-17a4e58a0c29","RequestTS":"2024-01-10T18:58:38-06:00","RespMessage":"Hello","RespCode":200,"Latency":"149.042µs"}
+
+Info:2024/01/10 18:58:43 requestLogger.go:16: Received request with: /pokemon-service/PK10005 and Method:GET
+Info:2024/01/10 18:58:43 requestLogger.go:23: Request: 
+Info:2024/01/10 18:58:43 handler.go:55: {"ID":"PK10005","Name":"Picachoo5","Type":"UU","Height":"80.9","Weight":"31.5","Abilities":"Eat\u0026Sleep"}
+Info:2024/01/10 18:58:43 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK10005","Name":"Picachoo5","Type":"UU","Height":"80.9","Weight":"31.5","Abilities":"Eat\u0026Sleep","RequestID":"7447972a-232f-48b0-880e-389a7c42bd7b","RequestTS":"2024-01-10T18:58:43-06:00","RespMessage":"Hello","RespCode":200,"Latency":"147.125µs"}
+
+Info:2024/01/10 18:58:48 requestLogger.go:16: Received request with: /pokemon-service/PK100010 and Method:GET
+Info:2024/01/10 18:58:48 requestLogger.go:23: Request: 
+Info:2024/01/10 18:58:48 handler.go:55: 
+Info:2024/01/10 18:58:48 responseLogger.go:69: 400 Content-Type: [Application/json] Status Code: 400{"ID":"","Name":"","Type":"","Height":"","Weight":"","Abilities":"","RequestID":"7a44fd94-06ca-4ea0-bd90-4206205c0f75","RequestTS":"2024-01-10T18:58:48-06:00","RespMessage":"Unable to get data from cache for Id","RespCode":400,"Latency":"90.459µs"}
+
+Info:2024/01/10 19:01:44 main.go:76: Shutting down the server...
+2024/01/10 19:01:44 http: Server closed
+Info:2024/01/10 19:01:44 main.go:85: Server gracefully stopped
+Info:2024/01/10 19:07:36 main.go:66: Starting the server on :8080
+Info:2024/01/10 19:07:50 requestLogger.go:16: Received request with: /pokemon-service/PK10001 and Method:GET
+Info:2024/01/10 19:07:50 requestLogger.go:23: Request: 
+Info:2024/01/10 19:07:50 handler.go:55: {"ID":"PK10001","Name":"Picachoo1","Type":"TT","Height":"20.9","Weight":"30.9","Abilities":"Eat\u0026Sleep"}
+Info:2024/01/10 19:07:50 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK10001","Name":"Picachoo1","Type":"TT","Height":"20.9","Weight":"30.9","Abilities":"Eat\u0026Sleep","RequestID":"1c6e296f-196f-4162-9064-80bfd73c8e81","RequestTS":"2024-01-10T19:07:50-06:00","RespMessage":"Success","RespCode":200,"Latency":"681.375µs"}
+
+Info:2024/01/10 19:07:58 requestLogger.go:16: Received request with: /pokemon-service/Picachoo1 and Method:GET
+Info:2024/01/10 19:07:58 requestLogger.go:23: Request: 
+Info:2024/01/10 19:07:58 handler.go:55: {"ID":"PK10001","Name":"Picachoo1","Type":"TT","Height":"20.9","Weight":"30.9","Abilities":"Eat\u0026Sleep"}
+Info:2024/01/10 19:07:58 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK10001","Name":"Picachoo1","Type":"TT","Height":"20.9","Weight":"30.9","Abilities":"Eat\u0026Sleep","RequestID":"a405e217-b49a-4b68-b3e7-bc63747eb35e","RequestTS":"2024-01-10T19:07:58-06:00","RespMessage":"Success","RespCode":200,"Latency":"259.583µs"}
+
+Info:2024/01/10 19:08:08 requestLogger.go:16: Received request with: /pokemon-service/Picachoo109 and Method:GET
+Info:2024/01/10 19:08:08 requestLogger.go:23: Request: 
+Info:2024/01/10 19:08:08 handler.go:55: 
+Info:2024/01/10 19:08:08 responseLogger.go:69: 400 Content-Type: [Application/json] Status Code: 400{"ID":"","Name":"","Type":"","Height":"","Weight":"","Abilities":"","RequestID":"8b0def95-fa25-437b-90ed-f4d480a9c39c","RequestTS":"2024-01-10T19:08:08-06:00","RespMessage":"Unable to get data from cache for Id:Picachoo109","RespCode":400,"Latency":"103µs"}
+
+Info:2024/01/10 19:10:17 requestLogger.go:16: Received request with: /pokemon-service/delete/Picachoo109 and Method:DELETE
+Info:2024/01/10 19:10:17 requestLogger.go:23: Request: 
+Info:2024/01/10 19:10:17 responseLogger.go:69: 400 Content-Type: [Application/json] Status Code: 400{"ID":"","Name":"","Type":"","Height":"","Weight":"","Abilities":"","RequestID":"6e20faad-e241-42ac-b6ca-e57dd95e2463","RequestTS":"2024-01-10T19:10:17-06:00","RespMessage":"Unable to get data from cache for Id to delete:Picachoo109","RespCode":400,"Latency":"111.125µs"}
+
+Info:2024/01/10 19:10:31 requestLogger.go:16: Received request with: /pokemon-service/delete/Picachoo2 and Method:DELETE
+Info:2024/01/10 19:10:31 requestLogger.go:23: Request: 
+Info:2024/01/10 19:10:31 handler.go:138: Deleted id from cache:Picachoo2
+Info:2024/01/10 19:10:31 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK10002","Name":"Picachoo2","Type":"PP","Height":"10.9","Weight":"31.1","Abilities":"Eat\u0026Sleep","RequestID":"788b5435-2b63-4e12-ab83-fce7f0b21ffe","RequestTS":"2024-01-10T19:10:31-06:00","RespMessage":"Success","RespCode":200,"Latency":"209.75µs"}
+
+Info:2024/01/10 19:10:45 requestLogger.go:16: Received request with: /pokemon-service/Picachoo2 and Method:GET
+Info:2024/01/10 19:10:45 requestLogger.go:23: Request: 
+Info:2024/01/10 19:10:45 handler.go:55: 
+Info:2024/01/10 19:10:45 responseLogger.go:69: 400 Content-Type: [Application/json] Status Code: 400{"ID":"","Name":"","Type":"","Height":"","Weight":"","Abilities":"","RequestID":"52c16a65-d7e1-4da2-b1e7-89f71cb948d7","RequestTS":"2024-01-10T19:10:45-06:00","RespMessage":"Unable to get data from cache for Id:Picachoo2","RespCode":400,"Latency":"107.125µs"}
+
+Info:2024/01/10 19:10:54 main.go:76: Shutting down the server...
+2024/01/10 19:10:54 http: Server closed
+Info:2024/01/10 19:16:47 main.go:66: Starting the server on :8080
+Info:2024/01/10 19:18:03 requestLogger.go:16: Received request with: /pokemon-service/Add and Method:POST
+Info:2024/01/10 19:18:03 requestLogger.go:23: Request: {
+    "ID": "PK8920921",
+    "Name": "PKPokemon",
+    "Type": "POP",
+    "Height": "64.3",
+    "Weight": "20.33",
+    "Abilities": "Sleep&Jump"
+}
+Info:2024/01/10 19:18:03 handler.go:171: {"ID":"PK8920921","Name":"PKPokemon","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump"}
+Info:2024/01/10 19:18:03 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"","Name":"","Type":"","Height":"","Weight":"","Abilities":"","RequestID":"abc16074-0a9c-46fe-9629-f021954e6d7c","RequestTS":"2024-01-10T19:18:03-06:00","RespMessage":"Success","RespCode":200,"Latency":"177.958µs"}
+
+Info:2024/01/10 19:18:20 requestLogger.go:16: Received request with: /pokemon-service/PK8920921 and Method:GET
+Info:2024/01/10 19:18:20 requestLogger.go:23: Request: 
+Info:2024/01/10 19:18:20 handler.go:55: 
+Info:2024/01/10 19:18:20 responseLogger.go:69: 400 Content-Type: [Application/json] Status Code: 400{"ID":"","Name":"","Type":"","Height":"","Weight":"","Abilities":"","RequestID":"41a5a582-c7b1-46a9-a4cc-e100dc8e3d34","RequestTS":"2024-01-10T19:18:20-06:00","RespMessage":"Unable to get data from cache for Id:PK8920921","RespCode":400,"Latency":"80.708µs"}
+
+Info:2024/01/10 19:22:31 requestLogger.go:16: Received request with: /pokemon-service/PKPokemon and Method:GET
+Info:2024/01/10 19:22:31 requestLogger.go:23: Request: 
+Info:2024/01/10 19:22:31 handler.go:55: {"ID":"PK8920921","Name":"PKPokemon","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump"}
+Info:2024/01/10 19:22:31 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK8920921","Name":"PKPokemon","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"5d1ea871-4d82-4272-9130-b6b20552c230","RequestTS":"2024-01-10T19:22:31-06:00","RespMessage":"Success","RespCode":200,"Latency":"167.417µs"}
+
+Info:2024/01/10 19:24:53 main.go:76: Shutting down the server...
+2024/01/10 19:24:53 http: Server closed
+Info:2024/01/10 19:24:53 main.go:85: Server gracefully stopped
+Info:2024/01/10 19:24:54 main.go:66: Starting the server on :8080
+Info:2024/01/10 19:25:04 requestLogger.go:16: Received request with: /pokemon-service/Add and Method:POST
+Info:2024/01/10 19:25:04 requestLogger.go:23: Request: {
+    "ID": "PK8920921",
+    "Name": "PKPokemon",
+    "Type": "POP",
+    "Height": "64.3",
+    "Weight": "20.33",
+    "Abilities": "Sleep&Jump"
+}
+Info:2024/01/10 19:25:04 handler.go:171: {"ID":"PK8920921","Name":"PKPokemon","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump"}
+Info:2024/01/10 19:25:04 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK8920921","Name":"PKPokemon","Type":"","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"587ead0c-5113-474b-b3e7-ad6a6aebc004","RequestTS":"2024-01-10T19:25:04-06:00","RespMessage":"Success","RespCode":200,"Latency":"183.833µs"}
+
+Info:2024/01/10 19:25:29 requestLogger.go:16: Received request with: /pokemon-service/PKPokemon and Method:GET
+Info:2024/01/10 19:25:29 requestLogger.go:23: Request: 
+Info:2024/01/10 19:25:29 handler.go:55: {"ID":"PK8920921","Name":"PKPokemon","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump"}
+Info:2024/01/10 19:25:29 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK8920921","Name":"PKPokemon","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"f381f589-3b98-4082-be47-9aeed3779159","RequestTS":"2024-01-10T19:25:29-06:00","RespMessage":"Success","RespCode":200,"Latency":"168.125µs"}
+
+Info:2024/01/10 19:25:36 main.go:76: Shutting down the server...
+2024/01/10 19:25:36 http: Server closed
+Info:2024/01/10 19:26:07 main.go:66: Starting the server on :8080
+Info:2024/01/10 19:26:12 requestLogger.go:16: Received request with: /pokemon-service/Add and Method:POST
+Info:2024/01/10 19:26:12 requestLogger.go:23: Request: {
+    "ID": "PK8920921",
+    "Name": "PKPokemon",
+    "Type": "POP",
+    "Height": "64.3",
+    "Weight": "20.33",
+    "Abilities": "Sleep&Jump"
+}
+Info:2024/01/10 19:26:18 handler.go:172: {"ID":"PK8920921","Name":"PKPokemon","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump"}
+Info:2024/01/10 19:26:18 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK8920921","Name":"PKPokemon","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"cfe3052a-b0e0-45b5-a002-f2dd71a56aab","RequestTS":"2024-01-10T19:26:12-06:00","RespMessage":"Success","RespCode":200,"Latency":"6.001859334s"}
+
+Info:2024/01/10 19:28:55 main.go:76: Shutting down the server...
+2024/01/10 19:28:55 http: Server closed
+Info:2024/01/10 19:28:56 main.go:66: Starting the server on :8080
+Info:2024/01/10 19:29:01 requestLogger.go:16: Received request with: /pokemon-service/Add and Method:POST
+Info:2024/01/10 19:29:01 requestLogger.go:23: Request: {
+    "ID": "PK8920921",
+    "Name": "PKPokemon",
+    "Type": "POP",
+    "Height": "64.3",
+    "Weight": "20.33",
+    "Abilities": "Sleep&Jump"
+}
+Info:2024/01/10 19:29:07 handler.go:185: {"ID":"PK8920921","Name":"PKPokemon","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump"}
+2024/01/10 19:29:07 http: superfluous response.WriteHeader call from pokemon-service/middlewares.(*ResponseWriterWrapper).WriteHeader (responseLogger.go:44)
+Info:2024/01/10 19:29:07 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"","Name":"","Type":"","Height":"","Weight":"","Abilities":"","RequestID":"a75a76bd-727b-4e50-a7f9-3f1866afd447","RequestTS":"2024-01-10T19:29:01-06:00","RespMessage":"context deadline exceeded","RespCode":500,"Latency":"5.001167625s"}
+{"ID":"PK8920921","Name":"PKPokemon","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"a75a76bd-727b-4e50-a7f9-3f1866afd447","RequestTS":"2024-01-10T19:29:01-06:00","RespMessage":"Success","RespCode":200,"Latency":"6.001731292s"}
+
+Info:2024/01/10 19:29:20 requestLogger.go:16: Received request with: /pokemon-service/PKPokemon and Method:GET
+Info:2024/01/10 19:29:20 requestLogger.go:23: Request: 
+Info:2024/01/10 19:29:20 handler.go:55: {"ID":"PK8920921","Name":"PKPokemon","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump"}
+Info:2024/01/10 19:29:20 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK8920921","Name":"PKPokemon","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"ce143bcc-14f2-4a41-9fc1-eb299a7069f6","RequestTS":"2024-01-10T19:29:20-06:00","RespMessage":"Success","RespCode":200,"Latency":"129.625µs"}
+
+Info:2024/01/10 19:33:54 main.go:76: Shutting down the server...
+2024/01/10 19:33:54 http: Server closed
+Info:2024/01/10 19:35:36 main.go:66: Starting the server on :8080
+Info:2024/01/10 19:35:40 requestLogger.go:16: Received request with: /pokemon-service/Add and Method:POST
+Info:2024/01/10 19:35:40 requestLogger.go:23: Request: {
+    "ID": "PK8920921",
+    "Name": "PKPokemon",
+    "Type": "POP",
+    "Height": "64.3",
+    "Weight": "20.33",
+    "Abilities": "Sleep&Jump"
+}
+Info:2024/01/10 19:35:45 responseLogger.go:69: 500 Content-Type: [Application/json] Status Code: 500{"ID":"","Name":"","Type":"","Height":"","Weight":"","Abilities":"","RequestTS":"2024-01-10T19:35:40-06:00","RespMessage":"context deadline exceeded","RespCode":500,"Latency":"5.000268s"}
+
+Info:2024/01/10 19:35:52 requestLogger.go:16: Received request with: /pokemon-service/PKPokemon and Method:GET
+Info:2024/01/10 19:35:52 requestLogger.go:23: Request: 
+Info:2024/01/10 19:35:52 handler.go:55: 
+Info:2024/01/10 19:35:52 responseLogger.go:69: 400 Content-Type: [Application/json] Status Code: 400{"ID":"","Name":"","Type":"","Height":"","Weight":"","Abilities":"","RequestID":"89e8e858-cb18-4c77-b79d-e279a0e4f9ab","RequestTS":"2024-01-10T19:35:52-06:00","RespMessage":"Unable to get data from cache for Id:PKPokemon","RespCode":400,"Latency":"120.792µs"}
+
+Info:2024/01/10 19:36:23 main.go:76: Shutting down the server...
+2024/01/10 19:36:23 http: Server closed
+Info:2024/01/10 19:36:24 main.go:66: Starting the server on :8080
+Info:2024/01/10 19:36:27 requestLogger.go:16: Received request with: /pokemon-service/PKPokemon and Method:GET
+Info:2024/01/10 19:36:27 requestLogger.go:23: Request: 
+Info:2024/01/10 19:36:27 handler.go:55: 
+Info:2024/01/10 19:36:27 responseLogger.go:69: 400 Content-Type: [Application/json] Status Code: 400{"ID":"","Name":"","Type":"","Height":"","Weight":"","Abilities":"","RequestID":"df15927d-69f1-448f-8849-68a1fc62c963","RequestTS":"2024-01-10T19:36:27-06:00","RespMessage":"Unable to get data from cache for Id:PKPokemon","RespCode":400,"Latency":"147.25µs"}
+
+Info:2024/01/10 19:36:30 requestLogger.go:16: Received request with: /pokemon-service/Add and Method:POST
+Info:2024/01/10 19:36:30 requestLogger.go:23: Request: {
+    "ID": "PK8920921",
+    "Name": "PKPokemon",
+    "Type": "POP",
+    "Height": "64.3",
+    "Weight": "20.33",
+    "Abilities": "Sleep&Jump"
+}
+Info:2024/01/10 19:36:35 responseLogger.go:69: 500 Content-Type: [Application/json] Status Code: 500{"ID":"","Name":"","Type":"","Height":"","Weight":"","Abilities":"","RequestTS":"2024-01-10T19:36:30-06:00","RespMessage":"context deadline exceeded","RespCode":500,"Latency":"5.001207208s"}
+
+Info:2024/01/10 19:59:04 main.go:76: Shutting down the server...
+2024/01/10 19:59:04 http: Server closed
+2024/01/10 19:59:05 Allocated new queue in 1.042µs; Capacity: 478 
+2024/01/10 19:59:05 Allocated new queue in 250ns; Capacity: 474 
+2024/01/10 19:59:05 Allocated new queue in 167ns; Capacity: 478 
+2024/01/10 19:59:05 Allocated new queue in 125ns; Capacity: 474 
+2024/01/10 19:59:05 Allocated new queue in 84ns; Capacity: 478 
+2024/01/10 19:59:05 Allocated new queue in 83ns; Capacity: 474 
+2024/01/10 19:59:05 Allocated new queue in 125ns; Capacity: 478 
+2024/01/10 19:59:05 Allocated new queue in 83ns; Capacity: 474 
+2024/01/10 19:59:05 Allocated new queue in 83ns; Capacity: 478 
+2024/01/10 19:59:05 Allocated new queue in 125ns; Capacity: 474 
+2024/01/10 19:59:05 Allocated new queue in 83ns; Capacity: 478 
+2024/01/10 19:59:05 Allocated new queue in 125ns; Capacity: 474 
+2024/01/10 19:59:05 Allocated new queue in 83ns; Capacity: 478 
+2024/01/10 19:59:05 Allocated new queue in 125ns; Capacity: 474 
+2024/01/10 19:59:05 Allocated new queue in 83ns; Capacity: 478 
+2024/01/10 19:59:05 Allocated new queue in 125ns; Capacity: 474 
+2024/01/10 19:59:05 Allocated new queue in 83ns; Capacity: 478 
+2024/01/10 19:59:05 Allocated new queue in 3µs; Capacity: 474 
+Info:2024/01/10 19:59:05 main.go:70: Starting the server on :8080
+Info:2024/01/10 19:59:09 requestLogger.go:16: Received request with: /pokemon-service/Add and Method:POST
+Info:2024/01/10 19:59:09 requestLogger.go:23: Request: {
+    "ID": "PK8920921",
+    "Name": "PKPokemon",
+    "Type": "POP",
+    "Height": "64.3",
+    "Weight": "20.33",
+    "Abilities": "Sleep&Jump"
+}
+2024/01/10 19:59:09 Allocated new queue in 666ns; Capacity: 488 
+Info:2024/01/10 19:59:09 handler.go:170: {"ID":"PK8920921","Name":"PKPokemon","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump"}
+Info:2024/01/10 19:59:09 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK8920921","Name":"PKPokemon","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"9c27ffd9-29cf-41d3-b96f-fa97b81066c1","RequestTS":"2024-01-10T19:59:09-06:00","RespMessage":"Success","RespCode":200,"Latency":"317.375µs"}
+
+Info:2024/01/10 19:59:13 requestLogger.go:16: Received request with: /pokemon-service/PKPokemon and Method:GET
+Info:2024/01/10 19:59:13 requestLogger.go:23: Request: 
+Info:2024/01/10 19:59:13 handler.go:54: {"ID":"PK8920921","Name":"PKPokemon","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump"}
+Info:2024/01/10 19:59:13 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK8920921","Name":"PKPokemon","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"9dfbaf8b-22da-4f76-95c9-568ef808c75d","RequestTS":"2024-01-10T19:59:13-06:00","RespMessage":"Success","RespCode":200,"Latency":"76.584µs"}
+
+Info:2024/01/10 19:59:37 requestLogger.go:16: Received request with: /pokemon-service/Add and Method:POST
+Info:2024/01/10 19:59:37 requestLogger.go:23: Request: {
+    "ID": "PK8920922",
+    "Name": "PKPokemon3",
+    "Type": "POP",
+    "Height": "64.3",
+    "Weight": "20.33",
+    "Abilities": "Sleep&Jump"
+}
+2024/01/10 19:59:37 Allocated new queue in 291ns; Capacity: 492 
+Info:2024/01/10 19:59:37 handler.go:170: {"ID":"PK8920922","Name":"PKPokemon3","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump"}
+Info:2024/01/10 19:59:37 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK8920922","Name":"PKPokemon3","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"a225d795-34dc-49bc-888e-aeed682394b1","RequestTS":"2024-01-10T19:59:37-06:00","RespMessage":"Success","RespCode":200,"Latency":"72.292µs"}
+
+Info:2024/01/10 19:59:42 requestLogger.go:16: Received request with: /pokemon-service/Add and Method:POST
+Info:2024/01/10 19:59:42 requestLogger.go:23: Request: {
+    "ID": "PK8920925",
+    "Name": "PKPokemon5",
+    "Type": "POP",
+    "Height": "64.3",
+    "Weight": "20.33",
+    "Abilities": "Sleep&Jump"
+}
+2024/01/10 19:59:42 Allocated new queue in 583ns; Capacity: 492 
+Info:2024/01/10 19:59:42 handler.go:170: {"ID":"PK8920925","Name":"PKPokemon5","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump"}
+Info:2024/01/10 19:59:42 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK8920925","Name":"PKPokemon5","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"8353b4ec-0881-44d1-9ea9-f94605f12d9c","RequestTS":"2024-01-10T19:59:42-06:00","RespMessage":"Success","RespCode":200,"Latency":"119.209µs"}
+
+Info:2024/01/10 19:59:47 requestLogger.go:16: Received request with: /pokemon-service/Add and Method:POST
+Info:2024/01/10 19:59:47 requestLogger.go:23: Request: {
+    "ID": "PK89209265",
+    "Name": "PKPokemon65",
+    "Type": "POP",
+    "Height": "64.3",
+    "Weight": "20.33",
+    "Abilities": "Sleep&Jump"
+}
+2024/01/10 19:59:47 Allocated new queue in 459ns; Capacity: 498 
+Info:2024/01/10 19:59:47 handler.go:170: {"ID":"PK89209265","Name":"PKPokemon65","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump"}
+Info:2024/01/10 19:59:47 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK89209265","Name":"PKPokemon65","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"11895bd4-b6df-4f17-a20e-1d7a819e9795","RequestTS":"2024-01-10T19:59:47-06:00","RespMessage":"Success","RespCode":200,"Latency":"129.667µs"}
+
+Info:2024/01/10 19:59:53 requestLogger.go:16: Received request with: /pokemon-service/Add and Method:POST
+Info:2024/01/10 19:59:53 requestLogger.go:23: Request: {
+    "ID": "PK89209295",
+    "Name": "PKPokemon675",
+    "Type": "POP",
+    "Height": "64.3",
+    "Weight": "20.33",
+    "Abilities": "Sleep&Jump"
+}
+2024/01/10 19:59:53 Allocated new queue in 541ns; Capacity: 502 
+Info:2024/01/10 19:59:53 handler.go:170: {"ID":"PK89209295","Name":"PKPokemon675","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump"}
+Info:2024/01/10 19:59:53 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK89209295","Name":"PKPokemon675","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"60beca5a-2ef6-40e6-877c-dd1c84e46c62","RequestTS":"2024-01-10T19:59:53-06:00","RespMessage":"Success","RespCode":200,"Latency":"108.542µs"}
+
+Info:2024/01/10 19:59:59 requestLogger.go:16: Received request with: /pokemon-service/Add and Method:POST
+Info:2024/01/10 19:59:59 requestLogger.go:23: Request: {
+    "ID": "PK892092905",
+    "Name": "PKPokemon6705",
+    "Type": "POP",
+    "Height": "64.3",
+    "Weight": "20.33",
+    "Abilities": "Sleep&Jump"
+}
+2024/01/10 19:59:59 Allocated new queue in 542ns; Capacity: 508 
+Info:2024/01/10 19:59:59 handler.go:170: {"ID":"PK892092905","Name":"PKPokemon6705","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump"}
+Info:2024/01/10 19:59:59 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK892092905","Name":"PKPokemon6705","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"bd4688aa-808e-4b35-a087-57587460aef1","RequestTS":"2024-01-10T19:59:59-06:00","RespMessage":"Success","RespCode":200,"Latency":"102.542µs"}
+
+Info:2024/01/10 20:00:05 requestLogger.go:16: Received request with: /pokemon-service/Add and Method:POST
+Info:2024/01/10 20:00:05 requestLogger.go:23: Request: {
+    "ID": "PK892092901",
+    "Name": "PKPokemon6701",
+    "Type": "POP",
+    "Height": "64.3",
+    "Weight": "20.33",
+    "Abilities": "Sleep&Jump"
+}
+2024/01/10 20:00:05 Allocated new queue in 583ns; Capacity: 508 
+Info:2024/01/10 20:00:05 handler.go:170: {"ID":"PK892092901","Name":"PKPokemon6701","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump"}
+Info:2024/01/10 20:00:05 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK892092901","Name":"PKPokemon6701","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"ea194860-dcc1-4bd0-84f0-cb781b75ff0b","RequestTS":"2024-01-10T20:00:05-06:00","RespMessage":"Success","RespCode":200,"Latency":"110µs"}
+
+Info:2024/01/10 20:00:38 main.go:80: Shutting down the server...
+2024/01/10 20:00:38 http: Server closed
+2024/01/10 20:00:39 Allocated new queue in 1.458µs; Capacity: 478 
+2024/01/10 20:00:39 Allocated new queue in 167ns; Capacity: 474 
+2024/01/10 20:00:39 Allocated new queue in 125ns; Capacity: 478 
+2024/01/10 20:00:39 Allocated new queue in 125ns; Capacity: 474 
+2024/01/10 20:00:39 Allocated new queue in 125ns; Capacity: 478 
+2024/01/10 20:00:39 Allocated new queue in 84ns; Capacity: 474 
+2024/01/10 20:00:39 Allocated new queue in 84ns; Capacity: 478 
+2024/01/10 20:00:39 Allocated new queue in 83ns; Capacity: 474 
+2024/01/10 20:00:39 Allocated new queue in 83ns; Capacity: 478 
+2024/01/10 20:00:39 Allocated new queue in 125ns; Capacity: 474 
+2024/01/10 20:00:39 Allocated new queue in 125ns; Capacity: 478 
+2024/01/10 20:00:39 Allocated new queue in 83ns; Capacity: 474 
+2024/01/10 20:00:39 Allocated new queue in 125ns; Capacity: 478 
+2024/01/10 20:00:39 Allocated new queue in 83ns; Capacity: 474 
+2024/01/10 20:00:39 Allocated new queue in 125ns; Capacity: 478 
+2024/01/10 20:00:39 Allocated new queue in 125ns; Capacity: 474 
+2024/01/10 20:00:39 Allocated new queue in 83ns; Capacity: 478 
+2024/01/10 20:00:39 Allocated new queue in 1.709µs; Capacity: 474 
+Info:2024/01/10 20:00:39 main.go:70: Starting the server on :8080
+Info:2024/01/10 20:00:44 requestLogger.go:16: Received request with: /pokemon-service/Add and Method:POST
+Info:2024/01/10 20:00:44 requestLogger.go:23: Request: {
+    "ID": "PK892092901",
+    "Name": "PKPokemon6701",
+    "Type": "POP",
+    "Height": "64.3",
+    "Weight": "20.33",
+    "Abilities": "Sleep&Jump"
+}
+2024/01/10 20:00:44 Allocated new queue in 334ns; Capacity: 508 
+Info:2024/01/10 20:00:44 handler.go:170: {"ID":"PK892092901","Name":"PKPokemon6701","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump"}
+Info:2024/01/10 20:00:44 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK892092901","Name":"PKPokemon6701","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"82541c9d-4bba-4e63-9b2a-19a25d6a9585","RequestTS":"2024-01-10T20:00:44-06:00","RespMessage":"Success","RespCode":200,"Latency":"154.542µs"}
+
+Info:2024/01/10 20:00:49 requestLogger.go:16: Received request with: /pokemon-service/Add and Method:POST
+Info:2024/01/10 20:00:49 requestLogger.go:23: Request: {
+    "ID": "PK8920929011",
+    "Name": "PKPokemon6701",
+    "Type": "POP",
+    "Height": "64.3",
+    "Weight": "20.33",
+    "Abilities": "Sleep&Jump"
+}
+Info:2024/01/10 20:00:49 handler.go:170: {"ID":"PK8920929011","Name":"PKPokemon6701","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump"}
+Info:2024/01/10 20:00:49 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK8920929011","Name":"PKPokemon6701","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"70a2458a-d71f-41c3-b18b-b66c21b85c86","RequestTS":"2024-01-10T20:00:49-06:00","RespMessage":"Success","RespCode":200,"Latency":"93.458µs"}
+
+Info:2024/01/10 20:00:52 requestLogger.go:16: Received request with: /pokemon-service/Add and Method:POST
+Info:2024/01/10 20:00:52 requestLogger.go:23: Request: {
+    "ID": "PK89209290211",
+    "Name": "PKPokemon67021",
+    "Type": "POP",
+    "Height": "64.3",
+    "Weight": "20.33",
+    "Abilities": "Sleep&Jump"
+}
+2024/01/10 20:00:52 Allocated new queue in 17.917µs; Capacity: 516 
+Info:2024/01/10 20:00:52 handler.go:170: {"ID":"PK89209290211","Name":"PKPokemon67021","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump"}
+Info:2024/01/10 20:00:52 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK89209290211","Name":"PKPokemon67021","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"bb840ce3-effb-4394-8606-bd6950875dc1","RequestTS":"2024-01-10T20:00:52-06:00","RespMessage":"Success","RespCode":200,"Latency":"105.75µs"}
+
+Info:2024/01/10 20:00:57 requestLogger.go:16: Received request with: /pokemon-service/Add and Method:POST
+Info:2024/01/10 20:00:57 requestLogger.go:23: Request: {
+    "ID": "PK89209290221",
+    "Name": "PKPokemon670321",
+    "Type": "POP",
+    "Height": "64.3",
+    "Weight": "20.33",
+    "Abilities": "Sleep&Jump"
+}
+2024/01/10 20:00:57 Allocated new queue in 458ns; Capacity: 520 
+Info:2024/01/10 20:00:57 handler.go:170: {"ID":"PK89209290221","Name":"PKPokemon670321","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump"}
+Info:2024/01/10 20:00:57 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK89209290221","Name":"PKPokemon670321","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"34490135-8a10-439d-89b2-9dd85f35e9b0","RequestTS":"2024-01-10T20:00:57-06:00","RespMessage":"Success","RespCode":200,"Latency":"111µs"}
+
+Info:2024/01/10 20:01:03 requestLogger.go:16: Received request with: /pokemon-service/Add and Method:POST
+Info:2024/01/10 20:01:03 requestLogger.go:23: Request: {
+    "ID": "PK89209290241",
+    "Name": "PKPokemon670421",
+    "Type": "POP",
+    "Height": "64.3",
+    "Weight": "20.33",
+    "Abilities": "Sleep&Jump"
+}
+2024/01/10 20:01:03 Allocated new queue in 708ns; Capacity: 520 
+Info:2024/01/10 20:01:03 handler.go:170: {"ID":"PK89209290241","Name":"PKPokemon670421","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump"}
+Info:2024/01/10 20:01:03 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK89209290241","Name":"PKPokemon670421","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"cbf521cf-c48d-4202-ab04-81bfca601147","RequestTS":"2024-01-10T20:01:03-06:00","RespMessage":"Success","RespCode":200,"Latency":"183.875µs"}
+
+Info:2024/01/10 20:01:07 requestLogger.go:16: Received request with: /pokemon-service/Add and Method:POST
+Info:2024/01/10 20:01:07 requestLogger.go:23: Request: {
+    "ID": "PK89209290246",
+    "Name": "PKPokemon660421",
+    "Type": "POP",
+    "Height": "64.3",
+    "Weight": "20.33",
+    "Abilities": "Sleep&Jump"
+}
+2024/01/10 20:01:07 Allocated new queue in 542ns; Capacity: 520 
+Info:2024/01/10 20:01:07 handler.go:170: {"ID":"PK89209290246","Name":"PKPokemon660421","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump"}
+Info:2024/01/10 20:01:07 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK89209290246","Name":"PKPokemon660421","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"273b3f6c-f311-44b7-870b-31afec5348e4","RequestTS":"2024-01-10T20:01:07-06:00","RespMessage":"Success","RespCode":200,"Latency":"61.708µs"}
+
+Info:2024/01/10 20:01:32 main.go:80: Shutting down the server...
+2024/01/10 20:01:32 http: Server closed
+2024/01/10 20:01:34 Allocated new queue in 3.208µs; Capacity: 478 
+2024/01/10 20:01:34 Allocated new queue in 208ns; Capacity: 474 
+2024/01/10 20:01:34 Allocated new queue in 125ns; Capacity: 478 
+2024/01/10 20:01:34 Allocated new queue in 125ns; Capacity: 474 
+2024/01/10 20:01:34 Allocated new queue in 83ns; Capacity: 478 
+2024/01/10 20:01:34 Allocated new queue in 125ns; Capacity: 474 
+2024/01/10 20:01:34 Allocated new queue in 84ns; Capacity: 478 
+2024/01/10 20:01:34 Allocated new queue in 125ns; Capacity: 474 
+2024/01/10 20:01:34 Allocated new queue in 83ns; Capacity: 478 
+2024/01/10 20:01:34 Allocated new queue in 125ns; Capacity: 474 
+2024/01/10 20:01:34 Allocated new queue in 83ns; Capacity: 478 
+2024/01/10 20:01:34 Allocated new queue in 83ns; Capacity: 474 
+2024/01/10 20:01:34 Allocated new queue in 125ns; Capacity: 478 
+2024/01/10 20:01:34 Allocated new queue in 83ns; Capacity: 474 
+2024/01/10 20:01:34 Allocated new queue in 125ns; Capacity: 478 
+2024/01/10 20:01:34 Allocated new queue in 83ns; Capacity: 474 
+2024/01/10 20:01:34 Allocated new queue in 83ns; Capacity: 478 
+2024/01/10 20:01:34 Allocated new queue in 2.209µs; Capacity: 474 
+Info:2024/01/10 20:01:34 main.go:70: Starting the server on :8080
+Info:2024/01/10 20:01:37 requestLogger.go:16: Received request with: /pokemon-service/Add and Method:POST
+Info:2024/01/10 20:01:37 requestLogger.go:23: Request: {
+    "ID": "PK89209290246",
+    "Name": "PKPokemon660421",
+    "Type": "POP",
+    "Height": "64.3",
+    "Weight": "20.33",
+    "Abilities": "Sleep&Jump"
+}
+2024/01/10 20:01:37 Allocated new queue in 3.708µs; Capacity: 520 
+Info:2024/01/10 20:01:37 handler.go:170: {"ID":"PK89209290246","Name":"PKPokemon660421","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump"}
+Info:2024/01/10 20:01:37 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK89209290246","Name":"PKPokemon660421","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"f076fe02-bf1d-4861-be51-82c3fe06f843","RequestTS":"2024-01-10T20:01:37-06:00","RespMessage":"Success","RespCode":200,"Latency":"172.208µs"}
+
+Info:2024/01/10 20:01:41 requestLogger.go:16: Received request with: /pokemon-service/Add and Method:POST
+Info:2024/01/10 20:01:41 requestLogger.go:23: Request: {
+    "ID": "PK892092902426",
+    "Name": "PKPokemon660421",
+    "Type": "POP",
+    "Height": "64.3",
+    "Weight": "20.33",
+    "Abilities": "Sleep&Jump"
+}
+Info:2024/01/10 20:01:41 handler.go:170: {"ID":"PK892092902426","Name":"PKPokemon660421","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump"}
+Info:2024/01/10 20:01:41 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK892092902426","Name":"PKPokemon660421","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"a3441045-02ec-43bc-842e-0de7e0817be8","RequestTS":"2024-01-10T20:01:41-06:00","RespMessage":"Success","RespCode":200,"Latency":"99.083µs"}
+
+Info:2024/01/10 20:01:45 requestLogger.go:16: Received request with: /pokemon-service/Add and Method:POST
+Info:2024/01/10 20:01:45 requestLogger.go:23: Request: {
+    "ID": "PK8920929024326",
+    "Name": "PKPokemon660321",
+    "Type": "POP",
+    "Height": "64.3",
+    "Weight": "20.33",
+    "Abilities": "Sleep&Jump"
+}
+2024/01/10 20:01:45 Allocated new queue in 2.917µs; Capacity: 524 
+Info:2024/01/10 20:01:45 handler.go:170: {"ID":"PK8920929024326","Name":"PKPokemon660321","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump"}
+Info:2024/01/10 20:01:45 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK8920929024326","Name":"PKPokemon660321","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"fb81a742-b5a7-4597-b97d-6a9ebc10993b","RequestTS":"2024-01-10T20:01:45-06:00","RespMessage":"Success","RespCode":200,"Latency":"115.834µs"}
+
+Info:2024/01/10 20:01:50 requestLogger.go:16: Received request with: /pokemon-service/Add and Method:POST
+Info:2024/01/10 20:01:50 requestLogger.go:23: Request: {
+    "ID": "PK89209290243261",
+    "Name": "PKPokemon6603211",
+    "Type": "POP",
+    "Height": "64.3",
+    "Weight": "20.33",
+    "Abilities": "Sleep&Jump"
+}
+2024/01/10 20:01:50 Allocated new queue in 458ns; Capacity: 530 
+Info:2024/01/10 20:01:50 handler.go:170: {"ID":"PK89209290243261","Name":"PKPokemon6603211","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump"}
+Info:2024/01/10 20:01:50 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK89209290243261","Name":"PKPokemon6603211","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"962cc9ef-8df3-4686-8b10-1f8e2593ec79","RequestTS":"2024-01-10T20:01:50-06:00","RespMessage":"Success","RespCode":200,"Latency":"124.292µs"}
+
+Info:2024/01/10 20:01:56 requestLogger.go:16: Received request with: /pokemon-service/Add and Method:POST
+Info:2024/01/10 20:01:56 requestLogger.go:23: Request: {
+    "ID": "PK89209290243061",
+    "Name": "PKPokemon663211",
+    "Type": "POP",
+    "Height": "64.3",
+    "Weight": "20.33",
+    "Abilities": "Sleep&Jump"
+}
+2024/01/10 20:01:56 Allocated new queue in 417ns; Capacity: 526 
+Info:2024/01/10 20:01:56 handler.go:170: {"ID":"PK89209290243061","Name":"PKPokemon663211","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump"}
+Info:2024/01/10 20:01:56 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK89209290243061","Name":"PKPokemon663211","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"96ca1e6e-6321-4917-82aa-be5978b47a46","RequestTS":"2024-01-10T20:01:56-06:00","RespMessage":"Success","RespCode":200,"Latency":"120.625µs"}
+
+Info:2024/01/10 20:02:00 requestLogger.go:16: Received request with: /pokemon-service/Add and Method:POST
+Info:2024/01/10 20:02:00 requestLogger.go:23: Request: {
+    "ID": "PK8920929243061",
+    "Name": "PKPokemo663211",
+    "Type": "POP",
+    "Height": "64.3",
+    "Weight": "20.33",
+    "Abilities": "Sleep&Jump"
+}
+2024/01/10 20:02:00 Allocated new queue in 458ns; Capacity: 520 
+Info:2024/01/10 20:02:00 handler.go:170: {"ID":"PK8920929243061","Name":"PKPokemo663211","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump"}
+Info:2024/01/10 20:02:00 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK8920929243061","Name":"PKPokemo663211","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"1b80aa93-ad7c-46ac-b93e-6975d50f14cb","RequestTS":"2024-01-10T20:02:00-06:00","RespMessage":"Success","RespCode":200,"Latency":"119.083µs"}
+
+Info:2024/01/10 20:30:00 main.go:80: Shutting down the server...
+2024/01/10 20:30:00 http: Server closed
+2024/01/10 20:30:02 Allocated new queue in 833ns; Capacity: 478 
+2024/01/10 20:30:02 Allocated new queue in 125ns; Capacity: 474 
+2024/01/10 20:30:02 Allocated new queue in 41ns; Capacity: 478 
+2024/01/10 20:30:02 Allocated new queue in 42ns; Capacity: 474 
+2024/01/10 20:30:02 Allocated new queue in 84ns; Capacity: 478 
+2024/01/10 20:30:02 Allocated new queue in 42ns; Capacity: 474 
+2024/01/10 20:30:02 Allocated new queue in 83ns; Capacity: 478 
+2024/01/10 20:30:02 Allocated new queue in 42ns; Capacity: 474 
+2024/01/10 20:30:02 Allocated new queue in 41ns; Capacity: 478 
+2024/01/10 20:30:02 Allocated new queue in 42ns; Capacity: 474 
+2024/01/10 20:30:02 Allocated new queue in 42ns; Capacity: 478 
+2024/01/10 20:30:02 Allocated new queue in 41ns; Capacity: 474 
+2024/01/10 20:30:02 Allocated new queue in 42ns; Capacity: 478 
+2024/01/10 20:30:02 Allocated new queue in 84ns; Capacity: 474 
+2024/01/10 20:30:02 Allocated new queue in 84ns; Capacity: 478 
+2024/01/10 20:30:02 Allocated new queue in 84ns; Capacity: 474 
+2024/01/10 20:30:02 Allocated new queue in 42ns; Capacity: 478 
+2024/01/10 20:30:02 Allocated new queue in 1.5µs; Capacity: 474 
+Info:2024/01/10 20:30:02 main.go:70: Starting the server on :8080
+Info:2024/01/10 20:30:08 requestLogger.go:16: Received request with: /health-check and Method:GET
+Info:2024/01/10 20:30:08 requestLogger.go:23: Request: 
+Info:2024/01/10 20:30:08 responseLogger.go:69: 0  Status Code: 0Health Check success
+Info:2024/01/10 20:30:27 requestLogger.go:16: Received request with: /pokemon-service/PK10008 and Method:GET
+Info:2024/01/10 20:30:27 requestLogger.go:23: Request: 
+Info:2024/01/10 20:30:27 handler.go:54: {"ID":"PK10008","Name":"Picachoo8","Type":"QQ","Height":"90.9","Weight":"31.1","Abilities":"Eat\u0026Sleep"}
+Info:2024/01/10 20:30:27 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK10008","Name":"Picachoo8","Type":"QQ","Height":"90.9","Weight":"31.1","Abilities":"Eat\u0026Sleep","RequestID":"53f948b6-2efb-4663-bee4-611c459d2f3b","RequestTS":"2024-01-10T20:30:27-06:00","RespMessage":"Success","RespCode":200,"Latency":"306.5µs"}
+
+Info:2024/01/10 20:31:17 requestLogger.go:16: Received request with: /pokemon-service/Picachoo9 and Method:GET
+Info:2024/01/10 20:31:17 requestLogger.go:23: Request: 
+Info:2024/01/10 20:31:17 handler.go:54: {"ID":"PK10009","Name":"Picachoo9","Type":"WY","Height":"20.9","Weight":"33.2","Abilities":"Eat\u0026Sleep"}
+Info:2024/01/10 20:31:17 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK10009","Name":"Picachoo9","Type":"WY","Height":"20.9","Weight":"33.2","Abilities":"Eat\u0026Sleep","RequestID":"24a2702d-7cd5-442c-82ad-4cf516771c57","RequestTS":"2024-01-10T20:31:17-06:00","RespMessage":"Success","RespCode":200,"Latency":"64.958µs"}
+
+Info:2024/01/10 20:33:30 requestLogger.go:16: Received request with: /pokemon-service/delete/Picachoo5 and Method:DELETE
+Info:2024/01/10 20:33:30 requestLogger.go:23: Request: {
+    "ID": "PK10009",
+    "Name": "Picachoo9",
+    "Type": "WY",
+    "Height": "20.9",
+    "Weight": "33.2",
+    "Abilities": "Eat\u0026Sleep",
+    "RequestID": "24a2702d-7cd5-442c-82ad-4cf516771c57",
+    "RequestTS": "2024-01-10T20:31:17-06:00",
+    "RespMessage": "Success",
+    "RespCode": 200,
+    "Latency": "64.958µs"
+}
+Info:2024/01/10 20:33:30 handler.go:135: Deleted id from cache:Picachoo5
+Info:2024/01/10 20:33:30 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK10005","Name":"Picachoo5","Type":"UU","Height":"80.9","Weight":"31.5","Abilities":"Eat\u0026Sleep","RequestID":"9cf33b4e-7544-4a47-aa50-b9ff92396f70","RequestTS":"2024-01-10T20:33:30-06:00","RespMessage":"Success","RespCode":200,"Latency":"65.25µs"}
+
+Info:2024/01/10 20:40:20 main.go:80: Shutting down the server...
+2024/01/10 20:40:20 http: Server closed
+2024/01/10 22:56:42 Allocated new queue in 1.5µs; Capacity: 478 
+2024/01/10 22:56:42 Allocated new queue in 167ns; Capacity: 474 
+2024/01/10 22:56:42 Allocated new queue in 125ns; Capacity: 478 
+2024/01/10 22:56:42 Allocated new queue in 125ns; Capacity: 474 
+2024/01/10 22:56:42 Allocated new queue in 125ns; Capacity: 478 
+2024/01/10 22:56:42 Allocated new queue in 83ns; Capacity: 474 
+2024/01/10 22:56:42 Allocated new queue in 41ns; Capacity: 478 
+2024/01/10 22:56:42 Allocated new queue in 83ns; Capacity: 474 
+2024/01/10 22:56:42 Allocated new queue in 83ns; Capacity: 478 
+2024/01/10 22:56:42 Allocated new queue in 125ns; Capacity: 474 
+2024/01/10 22:56:42 Allocated new queue in 83ns; Capacity: 478 
+2024/01/10 22:56:42 Allocated new queue in 84ns; Capacity: 474 
+2024/01/10 22:56:42 Allocated new queue in 83ns; Capacity: 478 
+2024/01/10 22:56:42 Allocated new queue in 83ns; Capacity: 474 
+2024/01/10 22:56:42 Allocated new queue in 83ns; Capacity: 478 
+2024/01/10 22:56:42 Allocated new queue in 83ns; Capacity: 474 
+2024/01/10 22:56:42 Allocated new queue in 84ns; Capacity: 478 
+2024/01/10 22:56:42 Allocated new queue in 2.166µs; Capacity: 474 
+Info:2024/01/10 22:56:42 main.go:70: Starting the server on :8080
+Info:2024/01/10 22:57:16 requestLogger.go:16: Received request with: /health-check and Method:GET
+Info:2024/01/10 22:57:16 requestLogger.go:23: Request: 
+Info:2024/01/10 22:57:16 responseLogger.go:69: 0  Status Code: 0Health Check success
+Info:2024/01/10 22:58:05 requestLogger.go:16: Received request with: /health-check and Method:GET
+Info:2024/01/10 22:58:05 requestLogger.go:23: Request: 
+Info:2024/01/10 22:58:05 responseLogger.go:69: 0  Status Code: 0Health Check success
+Info:2024/01/10 22:59:05 requestLogger.go:16: Received request with: /pokemon-service/PK10008 and Method:GET
+Info:2024/01/10 22:59:05 requestLogger.go:23: Request: 
+Info:2024/01/10 22:59:05 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK10008","Name":"Picachoo8","Type":"QQ","Height":"90.9","Weight":"31.1","Abilities":"Eat\u0026Sleep","RequestID":"feb8f005-1804-4d8e-a64e-1e99d74c138f","RequestTS":"2024-01-10T22:59:05-06:00","RespMessage":"Success","RespCode":200,"Latency":"116.167µs"}
+
+Info:2024/01/10 23:00:24 requestLogger.go:16: Received request with: /pokemon-service/Picachoo9 and Method:GET
+Info:2024/01/10 23:00:24 requestLogger.go:23: Request: 
+Info:2024/01/10 23:00:24 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK10009","Name":"Picachoo9","Type":"WY","Height":"20.9","Weight":"33.2","Abilities":"Eat\u0026Sleep","RequestID":"655ae726-8387-4700-9036-4453098074e7","RequestTS":"2024-01-10T23:00:24-06:00","RespMessage":"Success","RespCode":200,"Latency":"28.75µs"}
+
+Info:2024/01/10 23:01:33 requestLogger.go:16: Received request with: /pokemon-service/Picachoo5 and Method:GET
+Info:2024/01/10 23:01:33 requestLogger.go:23: Request: 
+Info:2024/01/10 23:01:33 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK10005","Name":"Picachoo5","Type":"UU","Height":"80.9","Weight":"31.5","Abilities":"Eat\u0026Sleep","RequestID":"ff379924-396f-40a4-bb8d-4125acbd8d13","RequestTS":"2024-01-10T23:01:33-06:00","RespMessage":"Success","RespCode":200,"Latency":"58.042µs"}
+
+Info:2024/01/10 23:01:36 requestLogger.go:16: Received request with: /pokemon-service/delete/Picachoo5 and Method:DELETE
+Info:2024/01/10 23:01:36 requestLogger.go:23: Request: {
+    "ID": "PK10009",
+    "Name": "Picachoo9",
+    "Type": "WY",
+    "Height": "20.9",
+    "Weight": "33.2",
+    "Abilities": "Eat\u0026Sleep",
+    "RequestID": "24a2702d-7cd5-442c-82ad-4cf516771c57",
+    "RequestTS": "2024-01-10T20:31:17-06:00",
+    "RespMessage": "Success",
+    "RespCode": 200,
+    "Latency": "64.958µs"
+}
+Info:2024/01/10 23:01:36 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK10005","Name":"Picachoo5","Type":"UU","Height":"80.9","Weight":"31.5","Abilities":"Eat\u0026Sleep","RequestID":"73f1136d-625a-4c30-919a-f0df5264203e","RequestTS":"2024-01-10T23:01:36-06:00","RespMessage":"Success","RespCode":200,"Latency":"49.5µs"}
+
+Info:2024/01/10 23:01:41 requestLogger.go:16: Received request with: /pokemon-service/Picachoo5 and Method:GET
+Info:2024/01/10 23:01:41 requestLogger.go:23: Request: 
+Info:2024/01/10 23:01:41 responseLogger.go:69: 404 Content-Type: [Application/json] Status Code: 404{"ID":"","Name":"","Type":"","Height":"","Weight":"","Abilities":"","RequestID":"4bdb40e5-a8f9-416a-ae7a-b581b21d503c","RequestTS":"2024-01-10T23:01:41-06:00","RespMessage":"Unable to get data from cache for Id:Picachoo5","RespCode":404,"Latency":"25.5µs"}
+
+Info:2024/01/10 23:02:35 requestLogger.go:16: Received request with: /pokemon-service/Add and Method:POST
+Info:2024/01/10 23:02:35 requestLogger.go:23: Request: {
+    "ID": "PK10987786",
+    "Name": "Picachoo5",
+    "Type": "UU",
+    "Height": "80.9",
+    "Weight": "31.5",
+    "Abilities": "Eat&Sleep"
+}
+Info:2024/01/10 23:02:35 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK10987786","Name":"Picachoo5","Type":"UU","Height":"80.9","Weight":"31.5","Abilities":"Eat\u0026Sleep","RequestID":"54d5cd05-a275-488a-9bcb-924ae5cee84d","RequestTS":"2024-01-10T23:02:35-06:00","RespMessage":"Success","RespCode":200,"Latency":"112.166µs"}
+
+Info:2024/01/10 23:08:02 main.go:80: Shutting down the server...
+2024/01/10 23:08:02 http: Server closed
+Info:2024/01/10 23:08:02 main.go:89: Server gracefully stopped
+2024/01/10 23:09:06 Allocated new queue in 1.125µs; Capacity: 470 
+2024/01/10 23:09:06 Allocated new queue in 250ns; Capacity: 470 
+2024/01/10 23:09:06 Allocated new queue in 83ns; Capacity: 474 
+2024/01/10 23:09:06 Allocated new queue in 84ns; Capacity: 472 
+2024/01/10 23:09:06 Allocated new queue in 125ns; Capacity: 470 
+2024/01/10 23:09:06 Allocated new queue in 83ns; Capacity: 470 
+2024/01/10 23:09:06 Allocated new queue in 83ns; Capacity: 470 
+2024/01/10 23:09:06 Allocated new queue in 83ns; Capacity: 470 
+2024/01/10 23:09:06 Allocated new queue in 41ns; Capacity: 470 
+2024/01/10 23:09:06 Allocated new queue in 84ns; Capacity: 470 
+2024/01/10 23:09:06 Allocated new queue in 83ns; Capacity: 470 
+2024/01/10 23:09:06 Allocated new queue in 84ns; Capacity: 470 
+2024/01/10 23:09:06 Allocated new queue in 83ns; Capacity: 470 
+2024/01/10 23:09:06 Allocated new queue in 84ns; Capacity: 470 
+2024/01/10 23:09:06 Allocated new queue in 83ns; Capacity: 474 
+2024/01/10 23:09:06 Allocated new queue in 83ns; Capacity: 472 
+2024/01/10 23:09:06 Allocated new queue in 84ns; Capacity: 474 
+2024/01/10 23:09:06 Allocated new queue in 2.208µs; Capacity: 472 
+Info:2024/01/10 23:09:06 main.go:70: Starting the server on :8080
+Info:2024/01/10 23:09:12 requestLogger.go:16: Received request with: /pokemon-service/Picachoo5 and Method:GET
+Info:2024/01/10 23:09:12 requestLogger.go:23: Request: 
+Info:2024/01/10 23:09:12 responseLogger.go:69: 404 Content-Type: [Application/json] Status Code: 404{"ID":"","Name":"","Type":"","Height":"","Weight":"","Abilities":"","RequestID":"46b58c08-6d05-4534-8a30-83e977f6dd92","RequestTS":"2024-01-10T23:09:12-06:00","RespMessage":"Unable to get data from cache for Id:Picachoo5","RespCode":404,"Latency":"108.583µs"}
+
+Info:2024/01/10 23:09:37 requestLogger.go:16: Received request with: /pokemon-service/PK10008 and Method:GET
+Info:2024/01/10 23:09:37 requestLogger.go:23: Request: 
+Info:2024/01/10 23:09:37 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK10008","Name":"PokemonX","Type":"QQ","Height":"90.9","Weight":"31.1","Abilities":"Eat\u0026Sleep","RequestID":"85d2129b-4f15-4aac-abef-ab8fb47d9499","RequestTS":"2024-01-10T23:09:37-06:00","RespMessage":"Success","RespCode":200,"Latency":"36.25µs"}
+
+Info:2024/01/10 23:09:45 requestLogger.go:16: Received request with: /pokemon-service/Chespin and Method:GET
+Info:2024/01/10 23:09:45 requestLogger.go:23: Request: 
+Info:2024/01/10 23:09:45 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK10001","Name":"Chespin","Type":"TT","Height":"20.9","Weight":"30.9","Abilities":"Eat\u0026Sleep","RequestID":"6d522593-896b-4a42-b3ef-73635875b5fc","RequestTS":"2024-01-10T23:09:45-06:00","RespMessage":"Success","RespCode":200,"Latency":"46.209µs"}
+
+Info:2024/01/10 23:09:59 requestLogger.go:16: Received request with: /pokemon-service/delete/PK10005 and Method:DELETE
+Info:2024/01/10 23:09:59 requestLogger.go:23: Request: 
+Info:2024/01/10 23:09:59 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK10005","Name":"Xerneas","Type":"UU","Height":"80.9","Weight":"31.5","Abilities":"Eat\u0026Sleep","RequestID":"1f6916d5-3f0e-4a7c-bb41-12056cd7fb5d","RequestTS":"2024-01-10T23:09:59-06:00","RespMessage":"Success","RespCode":200,"Latency":"54.208µs"}
+
+Info:2024/01/10 23:10:46 requestLogger.go:16: Received request with: /pokemon-service/Add and Method:POST
+Info:2024/01/10 23:10:46 requestLogger.go:23: Request: {
+    "ID": "PK89134",
+    "Name": "PokemonAmie",
+    "Type": "POP",
+    "Height": "64.3",
+    "Weight": "20.33",
+    "Abilities": "Sleep&Jump"
+}
+2024/01/10 23:10:46 Allocated new queue in 458ns; Capacity: 492 
+Info:2024/01/10 23:10:46 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK89134","Name":"PokemonAmie","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"0735bd89-d40e-4cca-ab16-3c5885f92cf7","RequestTS":"2024-01-10T23:10:46-06:00","RespMessage":"Success","RespCode":200,"Latency":"117.25µs"}
+
+Info:2024/01/10 23:10:54 main.go:80: Shutting down the server...
+2024/01/10 23:10:54 http: Server closed
+2024/01/12 17:12:38 Allocated new queue in 2.333µs; Capacity: 470 
+2024/01/12 17:12:38 Allocated new queue in 208ns; Capacity: 470 
+2024/01/12 17:12:38 Allocated new queue in 42ns; Capacity: 474 
+2024/01/12 17:12:38 Allocated new queue in 84ns; Capacity: 472 
+2024/01/12 17:12:38 Allocated new queue in 42ns; Capacity: 470 
+2024/01/12 17:12:38 Allocated new queue in 83ns; Capacity: 470 
+2024/01/12 17:12:38 Allocated new queue in 41ns; Capacity: 470 
+2024/01/12 17:12:38 Allocated new queue in 41ns; Capacity: 470 
+2024/01/12 17:12:38 Allocated new queue in 41ns; Capacity: 470 
+2024/01/12 17:12:38 Allocated new queue in 42ns; Capacity: 470 
+2024/01/12 17:12:38 Allocated new queue in 83ns; Capacity: 470 
+2024/01/12 17:12:38 Allocated new queue in 42ns; Capacity: 470 
+2024/01/12 17:12:38 Allocated new queue in 42ns; Capacity: 470 
+2024/01/12 17:12:38 Allocated new queue in 42ns; Capacity: 470 
+2024/01/12 17:12:38 Allocated new queue in 83ns; Capacity: 474 
+2024/01/12 17:12:38 Allocated new queue in 42ns; Capacity: 472 
+2024/01/12 17:12:38 Allocated new queue in 42ns; Capacity: 474 
+2024/01/12 17:12:38 Allocated new queue in 1.5µs; Capacity: 472 
+Info:2024/01/12 17:12:38 main.go:70: Starting the server on :8080
+Info:2024/01/12 17:14:00 requestLogger.go:16: Received request with: /health-check and Method:GET
+Info:2024/01/12 17:14:00 requestLogger.go:23: Request: 
+Info:2024/01/12 17:14:00 responseLogger.go:69: 0  Status Code: 0Health Check success
+Info:2024/01/12 17:14:45 requestLogger.go:16: Received request with: /pokemon-service/PK10008 and Method:GET
+Info:2024/01/12 17:14:45 requestLogger.go:23: Request: 
+Info:2024/01/12 17:14:45 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK10008","Name":"PokemonX","Type":"QQ","Height":"90.9","Weight":"31.1","Abilities":"Eat\u0026Sleep","RequestID":"2a93e374-2bcf-40f3-ba87-b33684e8827a","RequestTS":"2024-01-12T17:14:45-06:00","RespMessage":"Success","RespCode":200,"Latency":"113.5µs"}
+
+Info:2024/01/12 17:15:25 requestLogger.go:16: Received request with: /pokemon-service/Chespin and Method:GET
+Info:2024/01/12 17:15:25 requestLogger.go:23: Request: 
+Info:2024/01/12 17:15:25 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK10001","Name":"Chespin","Type":"TT","Height":"20.9","Weight":"30.9","Abilities":"Eat\u0026Sleep","RequestID":"dc105d8e-0f85-4146-a953-5605a07a9b82","RequestTS":"2024-01-12T17:15:25-06:00","RespMessage":"Success","RespCode":200,"Latency":"39.916µs"}
+
+Info:2024/01/12 17:24:48 requestLogger.go:16: Received request with: /health-check and Method:GET
+Info:2024/01/12 17:24:48 requestLogger.go:23: Request: 
+Info:2024/01/12 17:24:48 responseLogger.go:69: 0  Status Code: 0Health Check success
+Info:2024/01/12 17:30:30 requestLogger.go:16: Received request with: /pokemon-service/PK10008 and Method:GET
+Info:2024/01/12 17:30:30 requestLogger.go:23: Request: 
+Info:2024/01/12 17:30:30 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK10008","Name":"PokemonX","Type":"QQ","Height":"90.9","Weight":"31.1","Abilities":"Eat\u0026Sleep","RequestID":"3908b362-8f9f-4cd2-9962-6fb5c5e61d7a","RequestTS":"2024-01-12T17:30:30-06:00","RespMessage":"Success","RespCode":200,"Latency":"46.458µs"}
+
+Info:2024/01/12 17:31:22 requestLogger.go:16: Received request with: /pokemon-service/Chespin and Method:GET
+Info:2024/01/12 17:31:22 requestLogger.go:23: Request: 
+Info:2024/01/12 17:31:22 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK10001","Name":"Chespin","Type":"TT","Height":"20.9","Weight":"30.9","Abilities":"Eat\u0026Sleep","RequestID":"1507ab3d-7c31-4552-8b2e-9d6174a58cfb","RequestTS":"2024-01-12T17:31:22-06:00","RespMessage":"Success","RespCode":200,"Latency":"40.959µs"}
+
+Info:2024/01/12 17:31:58 requestLogger.go:16: Received request with: /pokemon-service/delete/PK10005 and Method:DELETE
+Info:2024/01/12 17:31:58 requestLogger.go:23: Request: 
+Info:2024/01/12 17:31:58 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK10005","Name":"Xerneas","Type":"UU","Height":"80.9","Weight":"31.5","Abilities":"Eat\u0026Sleep","RequestID":"7e1180c5-ec64-4fee-b7aa-d25c339a5bbb","RequestTS":"2024-01-12T17:31:58-06:00","RespMessage":"Success","RespCode":200,"Latency":"38.125µs"}
+
+Info:2024/01/12 17:32:14 requestLogger.go:16: Received request with: /pokemon-service/PK10005 and Method:GET
+Info:2024/01/12 17:32:14 requestLogger.go:23: Request: 
+Info:2024/01/12 17:32:14 responseLogger.go:69: 404 Content-Type: [Application/json] Status Code: 404{"ID":"","Name":"","Type":"","Height":"","Weight":"","Abilities":"","RequestID":"173f9eab-8be3-4b1e-9ecc-6cbd1960aaa7","RequestTS":"2024-01-12T17:32:14-06:00","RespMessage":"Unable to get data from cache for Id:PK10005","RespCode":404,"Latency":"22.583µs"}
+
+Info:2024/01/12 17:33:07 requestLogger.go:16: Received request with: /pokemon-service/Add and Method:POST
+Info:2024/01/12 17:33:07 requestLogger.go:23: Request: {
+    "ID": "PK89134",
+    "Name": "PokemonAmie",
+    "Type": "POP",
+    "Height": "64.3",
+    "Weight": "20.33",
+    "Abilities": "Sleep&Jump"
+}
+2024/01/12 17:33:07 Allocated new queue in 500ns; Capacity: 492 
+Info:2024/01/12 17:33:07 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK89134","Name":"PokemonAmie","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"b8e0931e-6d68-48a8-bd39-275ec21b66c3","RequestTS":"2024-01-12T17:33:07-06:00","RespMessage":"Success","RespCode":200,"Latency":"126.625µs"}
+
+Info:2024/01/12 17:33:21 requestLogger.go:16: Received request with: /pokemon-service/PK89134 and Method:GET
+Info:2024/01/12 17:33:21 requestLogger.go:23: Request: 
+Info:2024/01/12 17:33:21 responseLogger.go:69: 404 Content-Type: [Application/json] Status Code: 404{"ID":"","Name":"","Type":"","Height":"","Weight":"","Abilities":"","RequestID":"62e92c84-9a79-444b-beec-435de017fb8b","RequestTS":"2024-01-12T17:33:21-06:00","RespMessage":"Unable to get data from cache for Id:PK89134","RespCode":404,"Latency":"25.834µs"}
+
+Info:2024/01/12 17:33:36 requestLogger.go:16: Received request with: /pokemon-service/PK89134 and Method:GET
+Info:2024/01/12 17:33:36 requestLogger.go:23: Request: 
+Info:2024/01/12 17:33:36 responseLogger.go:69: 404 Content-Type: [Application/json] Status Code: 404{"ID":"","Name":"","Type":"","Height":"","Weight":"","Abilities":"","RequestID":"cd77747c-14cd-49ef-b32e-bd81ba17521f","RequestTS":"2024-01-12T17:33:36-06:00","RespMessage":"Unable to get data from cache for Id:PK89134","RespCode":404,"Latency":"24.333µs"}
+
+Info:2024/01/12 17:33:58 requestLogger.go:16: Received request with: /pokemon-service/PokemonAmie and Method:GET
+Info:2024/01/12 17:33:58 requestLogger.go:23: Request: 
+Info:2024/01/12 17:33:58 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK89134","Name":"PokemonAmie","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"f05d2531-837f-494c-8083-2276ea42d041","RequestTS":"2024-01-12T17:33:58-06:00","RespMessage":"Success","RespCode":200,"Latency":"389.167µs"}
+
+Info:2024/01/12 17:34:14 requestLogger.go:16: Received request with: /pokemon-service/PK89134 and Method:GET
+Info:2024/01/12 17:34:14 requestLogger.go:23: Request: 
+Info:2024/01/12 17:34:14 responseLogger.go:69: 404 Content-Type: [Application/json] Status Code: 404{"ID":"","Name":"","Type":"","Height":"","Weight":"","Abilities":"","RequestID":"719ac437-0a3a-4a01-8d13-38ab96a234f4","RequestTS":"2024-01-12T17:34:14-06:00","RespMessage":"Unable to get data from cache for Id:PK89134","RespCode":404,"Latency":"19.417µs"}
+
+Info:2024/01/12 17:34:44 requestLogger.go:16: Received request with: /pokemon-service/PokemonAmie and Method:GET
+Info:2024/01/12 17:34:44 requestLogger.go:23: Request: 
+Info:2024/01/12 17:34:44 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK89134","Name":"PokemonAmie","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"67f564b2-d117-42fe-abf1-b320d192f72a","RequestTS":"2024-01-12T17:34:44-06:00","RespMessage":"Success","RespCode":200,"Latency":"56.042µs"}
+
+Info:2024/01/12 17:36:09 main.go:80: Shutting down the server...
+2024/01/12 17:36:09 http: Server closed
+Info:2024/01/12 17:36:09 main.go:89: Server gracefully stopped
+2024/01/17 12:40:19 Allocated new queue in 1.5µs; Capacity: 470 
+2024/01/17 12:40:19 Allocated new queue in 250ns; Capacity: 470 
+2024/01/17 12:40:19 Allocated new queue in 125ns; Capacity: 474 
+2024/01/17 12:40:19 Allocated new queue in 84ns; Capacity: 472 
+2024/01/17 12:40:19 Allocated new queue in 83ns; Capacity: 470 
+2024/01/17 12:40:19 Allocated new queue in 83ns; Capacity: 470 
+2024/01/17 12:40:19 Allocated new queue in 125ns; Capacity: 470 
+2024/01/17 12:40:19 Allocated new queue in 84ns; Capacity: 470 
+2024/01/17 12:40:19 Allocated new queue in 83ns; Capacity: 470 
+2024/01/17 12:40:19 Allocated new queue in 84ns; Capacity: 470 
+2024/01/17 12:40:19 Allocated new queue in 84ns; Capacity: 470 
+2024/01/17 12:40:19 Allocated new queue in 42ns; Capacity: 470 
+2024/01/17 12:40:19 Allocated new queue in 83ns; Capacity: 470 
+2024/01/17 12:40:19 Allocated new queue in 83ns; Capacity: 470 
+2024/01/17 12:40:19 Allocated new queue in 83ns; Capacity: 474 
+2024/01/17 12:40:19 Allocated new queue in 83ns; Capacity: 472 
+2024/01/17 12:40:19 Allocated new queue in 83ns; Capacity: 474 
+2024/01/17 12:40:19 Allocated new queue in 3.916µs; Capacity: 472 
+Info:2024/01/17 12:40:19 main.go:70: Starting the server on :8080
+Info:2024/01/17 12:40:45 requestLogger.go:16: Received request with: /pokemon-service/Chespin and Method:GET
+Info:2024/01/17 12:40:45 requestLogger.go:23: Request: 
+Info:2024/01/17 12:40:45 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK10001","Name":"Chespin","Type":"TT","Height":"20.9","Weight":"30.9","Abilities":"Eat\u0026Sleep","RequestID":"3a39048b-67c9-4d25-909e-620904037963","RequestTS":"2024-01-17T12:40:45-06:00","RespMessage":"Success","RespCode":200,"Latency":"106.709µs"}
+
+Info:2024/01/17 12:40:51 requestLogger.go:16: Received request with: /pokemon-service/Fennekin and Method:GET
+Info:2024/01/17 12:40:51 requestLogger.go:23: Request: 
+Info:2024/01/17 12:40:51 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK10002","Name":"Fennekin","Type":"PP","Height":"10.9","Weight":"31.1","Abilities":"Eat\u0026Sleep","RequestID":"4f6addf0-235b-4c6b-a0c3-eabf9d515d11","RequestTS":"2024-01-17T12:40:51-06:00","RespMessage":"Success","RespCode":200,"Latency":"40.334µs"}
+
+Info:2024/01/17 12:40:58 requestLogger.go:16: Received request with: /pokemon-service/Add and Method:POST
+Info:2024/01/17 12:40:58 requestLogger.go:23: Request: {
+    "ID": "PK89134",
+    "Name": "PokemonAmie",
+    "Type": "POP",
+    "Height": "64.3",
+    "Weight": "20.33",
+    "Abilities": "Sleep&Jump"
+}
+2024/01/17 12:40:58 Allocated new queue in 416ns; Capacity: 492 
+2024/01/17 12:40:58 Allocated new queue in 250ns; Capacity: 484 
+Info:2024/01/17 12:40:58 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK89134","Name":"PokemonAmie","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"eab39c36-874a-43ef-b782-96fa3a59e433","RequestTS":"2024-01-17T12:40:58-06:00","RespMessage":"Success","RespCode":200,"Latency":"103.666µs"}
+
+Info:2024/01/17 12:41:03 requestLogger.go:16: Received request with: /pokemon-service/Add and Method:POST
+Info:2024/01/17 12:41:03 requestLogger.go:23: Request: {
+    "ID": "PK89134",
+    "Name": "PokemonAmie2222",
+    "Type": "POP",
+    "Height": "64.3",
+    "Weight": "20.33",
+    "Abilities": "Sleep&Jump"
+}
+2024/01/17 12:41:03 Allocated new queue in 500ns; Capacity: 508 
+Info:2024/01/17 12:41:03 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK89134","Name":"PokemonAmie2222","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"88437b78-2418-48d1-aaa5-4af6085ed290","RequestTS":"2024-01-17T12:41:03-06:00","RespMessage":"Success","RespCode":200,"Latency":"99.959µs"}
+
+Info:2024/01/17 12:41:07 requestLogger.go:16: Received request with: /pokemon-service/Add and Method:POST
+Info:2024/01/17 12:41:07 requestLogger.go:23: Request: {
+    "ID": "PK89134",
+    "Name": "PokemonAmie2224",
+    "Type": "POP",
+    "Height": "64.3",
+    "Weight": "20.33",
+    "Abilities": "Sleep&Jump"
+}
+2024/01/17 12:41:07 Allocated new queue in 292ns; Capacity: 508 
+Info:2024/01/17 12:41:07 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK89134","Name":"PokemonAmie2224","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"b67044c3-ff5d-4214-b694-e1930e85c67c","RequestTS":"2024-01-17T12:41:07-06:00","RespMessage":"Success","RespCode":200,"Latency":"61.542µs"}
+
+Info:2024/01/17 12:41:12 requestLogger.go:16: Received request with: /pokemon-service/Add and Method:POST
+Info:2024/01/17 12:41:12 requestLogger.go:23: Request: {
+    "ID": "PK89134",
+    "Name": "PokemonAmie2228",
+    "Type": "POP",
+    "Height": "64.3",
+    "Weight": "20.33",
+    "Abilities": "Sleep&Jump"
+}
+2024/01/17 12:41:12 Allocated new queue in 333ns; Capacity: 508 
+2024/01/17 12:41:12 Allocated new queue in 10.417µs; Capacity: 968 
+Info:2024/01/17 12:41:12 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK89134","Name":"PokemonAmie2228","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"736192b7-2859-4373-aeb6-a57e2075e179","RequestTS":"2024-01-17T12:41:12-06:00","RespMessage":"Success","RespCode":200,"Latency":"102.75µs"}
+
+Info:2024/01/17 12:41:18 requestLogger.go:16: Received request with: /pokemon-service/Add and Method:POST
+Info:2024/01/17 12:41:18 requestLogger.go:23: Request: {
+    "ID": "PK89134",
+    "Name": "PokemonAmie2230",
+    "Type": "POP",
+    "Height": "64.3",
+    "Weight": "20.33",
+    "Abilities": "Sleep&Jump"
+}
+2024/01/17 12:41:18 Allocated new queue in 541ns; Capacity: 508 
+Info:2024/01/17 12:41:18 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK89134","Name":"PokemonAmie2230","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"5856305a-84da-45bf-94ac-3208706ff74a","RequestTS":"2024-01-17T12:41:18-06:00","RespMessage":"Success","RespCode":200,"Latency":"97.083µs"}
+
+Info:2024/01/17 12:41:28 requestLogger.go:16: Received request with: /pokemon-service/PokemonAmie2230 and Method:GET
+Info:2024/01/17 12:41:28 requestLogger.go:23: Request: 
+Info:2024/01/17 12:41:28 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK89134","Name":"PokemonAmie2230","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"35f6245a-5a76-4d9d-9198-b2452b04e9a0","RequestTS":"2024-01-17T12:41:28-06:00","RespMessage":"Success","RespCode":200,"Latency":"59µs"}
+
+Info:2024/01/17 12:42:06 requestLogger.go:16: Received request with: /pokemon-service/PokemonAmie2230 and Method:GET
+Info:2024/01/17 12:42:06 requestLogger.go:23: Request: 
+Info:2024/01/17 12:42:06 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK89134","Name":"PokemonAmie2230","Type":"POP","Height":"64.3","Weight":"20.33","Abilities":"Sleep\u0026Jump","RequestID":"f1188fed-16b5-4b06-9900-3d3cdcb1e9bd","RequestTS":"2024-01-17T12:42:06-06:00","RespMessage":"Success","RespCode":200,"Latency":"35.625µs"}
+
+Info:2024/01/17 12:42:11 requestLogger.go:16: Received request with: /pokemon-service/Chespin and Method:GET
+Info:2024/01/17 12:42:11 requestLogger.go:23: Request: 
+Info:2024/01/17 12:42:11 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK10001","Name":"Chespin","Type":"TT","Height":"20.9","Weight":"30.9","Abilities":"Eat\u0026Sleep","RequestID":"514dcb9b-bb20-4a8f-9e70-998d52e6f967","RequestTS":"2024-01-17T12:42:11-06:00","RespMessage":"Success","RespCode":200,"Latency":"63µs"}
+
+Info:2024/01/17 12:42:14 requestLogger.go:16: Received request with: /pokemon-service/Chespin and Method:GET
+Info:2024/01/17 12:42:14 requestLogger.go:23: Request: 
+Info:2024/01/17 12:42:14 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK10001","Name":"Chespin","Type":"TT","Height":"20.9","Weight":"30.9","Abilities":"Eat\u0026Sleep","RequestID":"a266fd58-02d6-42a9-85dc-4ac0e096f77f","RequestTS":"2024-01-17T12:42:14-06:00","RespMessage":"Success","RespCode":200,"Latency":"30.916µs"}
+
+Info:2024/01/17 12:42:44 requestLogger.go:16: Received request with: /pokemon-service/Chespin and Method:GET
+Info:2024/01/17 12:42:44 requestLogger.go:23: Request: 
+Info:2024/01/17 12:42:44 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK10001","Name":"Chespin","Type":"TT","Height":"20.9","Weight":"30.9","Abilities":"Eat\u0026Sleep","RequestID":"a4389faf-cce6-4833-af14-097704599ed8","RequestTS":"2024-01-17T12:42:44-06:00","RespMessage":"Success","RespCode":200,"Latency":"45.417µs"}
+
+Info:2024/01/17 12:42:46 requestLogger.go:16: Received request with: /pokemon-service/Chespin and Method:GET
+Info:2024/01/17 12:42:46 requestLogger.go:23: Request: 
+Info:2024/01/17 12:42:46 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK10001","Name":"Chespin","Type":"TT","Height":"20.9","Weight":"30.9","Abilities":"Eat\u0026Sleep","RequestID":"672351f9-77f6-40b0-b1bd-763e9e3f922b","RequestTS":"2024-01-17T12:42:46-06:00","RespMessage":"Success","RespCode":200,"Latency":"47.875µs"}
+
+Info:2024/01/17 12:42:47 requestLogger.go:16: Received request with: /pokemon-service/Chespin and Method:GET
+Info:2024/01/17 12:42:47 requestLogger.go:23: Request: 
+Info:2024/01/17 12:42:47 responseLogger.go:69: 200 Content-Type: [Application/json] Status Code: 200{"ID":"PK10001","Name":"Chespin","Type":"TT","Height":"20.9","Weight":"30.9","Abilities":"Eat\u0026Sleep","RequestID":"dd69619a-0d24-42ea-b19d-d477c501720b","RequestTS":"2024-01-17T12:42:47-06:00","RespMessage":"Success","RespCode":200,"Latency":"29.292µs"}
+
+Info:2024/01/17 12:45:02 requestLogger.go:16: Received request with: /pokemon-service/Chespin and Method:GET
+Info:2024/01/17 12:45:02 requestLogger.go:23: Request: 
+Info:2024/01/17 12:45:02 responseLogger.go:69: 404 Content-Type: [Application/json] Status Code: 404{"ID":"","Name":"","Type":"","Height":"","Weight":"","Abilities":"","RequestID":"5aed135f-42c8-4cf8-b634-959bc71a7f34","RequestTS":"2024-01-17T12:45:02-06:00","RespMessage":"Unable to get data from cache for Id:Chespin","RespCode":404,"Latency":"14.459µs"}
+
+Info:2024/01/17 12:45:20 requestLogger.go:16: Received request with: /pokemon-service/PokemonAmie2230 and Method:GET
+Info:2024/01/17 12:45:20 requestLogger.go:23: Request: 
+Info:2024/01/17 12:45:20 responseLogger.go:69: 404 Content-Type: [Application/json] Status Code: 404{"ID":"","Name":"","Type":"","Height":"","Weight":"","Abilities":"","RequestID":"d2cc0b0d-6453-4f11-b5b2-a188dedc35ce","RequestTS":"2024-01-17T12:45:20-06:00","RespMessage":"Unable to get data from cache for Id:PokemonAmie2230","RespCode":404,"Latency":"22.125µs"}
+
+Info:2024/01/17 12:46:08 main.go:80: Shutting down the server...
+2024/01/17 12:46:08 http: Server closed
+Info:2024/01/17 12:46:08 main.go:89: Server gracefully stopped
